@@ -1,6 +1,7 @@
 {
   "name": "xdns-web",
   "version": "0.0.0",
+  "homepage": "https://tcpgnl.github.io/xdns-web",
   "scripts": {
     "dev": "vite",
     "build": "vite build"
