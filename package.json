@@ -4,7 +4,7 @@
   "homepage": "https://tcpgnl.github.io/xdns-web",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build --base =/xdns-web/"
   },
   "dependencies": {
     "element-plus": "^1.1.0-beta.1",
