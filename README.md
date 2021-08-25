@@ -1,4 +1,5 @@
 # xdns
+[![deploy](https://github.com/tcpgnl/xdns-web/actions/workflows/main.yml/badge.svg)](https://github.com/tcpgnl/xdns-web/actions/workflows/main.yml)
 A fully self-service domain name resolution system.
 
 
