@@ -8,8 +8,10 @@ A fully self-service domain name resolution system.
 
 ## 功能实现
 
-- [ ] 实现展示和和插入DNS功能 实现最初的页面
-- [x] 加入GitHub Action
+- [ ] 加入 element-plus 或者 Ant Design of Vue
+- [ ] 实现展示DNS记录页面
+- [ ] 实现插入DNS功能 实现最初的页面
+- [x] 加入 GitHub Action
 - [ ] 加入单元测试
-- [ ] 加入typescript
-- [ ] 加入docker 功能
+- [ ] 加入 typescript
+- [ ] 加入 docker 功能
