@@ -5,7 +5,7 @@
 
 <script>
 export default {
-  name: 'xdns',
+  name: 'HelloWorld',
   props: {
     msg: String
   },
