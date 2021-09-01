@@ -1,8 +1,6 @@
 <template>
-
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
     <div>
-    <el-button type="primary">el-button</el-button>
+    <router-link to="/dnslist">DNSList</router-link>
     <router-view></router-view>
   </div>
 </template>
