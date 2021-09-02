@@ -7,11 +7,6 @@ const routes = [
     name: "DNSList",
     component: DNSList,
   },
-//   {
-//     path: "/dnslist",
-//     name: "DNSList",
-//     component: DNSList,
-//   },
 ];
 
 const router = createRouter({
