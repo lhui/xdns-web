@@ -98,7 +98,7 @@
 
 <style>
 .el-header {
-    background-color: #B3C0D1;
+    background-color: #409EFF;
     color: var(--el-text-color-primary);
     line-height: 60px;
   }
