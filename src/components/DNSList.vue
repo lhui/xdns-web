@@ -39,6 +39,11 @@
 <script>
   export default {
        name: "DNSList",
+      methods: {
+      deleteRow(index, rows) {
+        rows.splice(index, 1);
+      }
+    },
     data() {
       const item = {
         dns_address: 'demo.example.com',
