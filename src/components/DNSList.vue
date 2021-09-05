@@ -2,6 +2,7 @@
   <el-table
     :data="tableData"
     style="width: 100%"
+    height="800px"
     max-height="100%">
     <el-table-column
       fixed
