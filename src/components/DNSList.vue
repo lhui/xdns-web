@@ -1,33 +1,38 @@
-
 <template>
-<el-container style="height: 100%; border: 1px solid #eee">
-  <el-container>
-    <el-header style="text-align: right; font-size: 12px">
-      <el-dropdown>
-        <i class="el-icon-setting" style="margin-right: 15px"></i>
-        <template #dropdown>
-          <el-dropdown-menu>
-              <el-dropdown-item>查看</el-dropdown-item>
-              <el-dropdown-item>新增</el-dropdown-item>
-              <el-dropdown-item>删除</el-dropdown-item>
-          </el-dropdown-menu>
-        </template>
-      </el-dropdown>
-      <span>王小虎</span>
-    </el-header>
-
-    <el-main>
-      <el-table :data="tableData">
-        <el-table-column prop="dns_address" label="网址" width="200">
-        </el-table-column>
-        <el-table-column prop="dns_type" label="记录类型" width="120">
-        </el-table-column>
-        <el-table-column prop="dns_content" label="内容">
-        </el-table-column>
-      </el-table>
-    </el-main>
-  </el-container>
-</el-container>
+  <el-table
+    :data="tableData"
+    style="width: 100%"
+    max-height="100%">
+    <el-table-column
+      fixed
+      prop="dns_address"
+      label="域名"
+      width="300">
+    </el-table-column>
+    <el-table-column
+      prop="dns_type"
+      label="类型"
+      width="120">
+    </el-table-column>
+    <el-table-column
+      prop="dns_content"
+      label="内容"
+      width="120">
+    </el-table-column>
+    <el-table-column
+      fixed="right"
+      label="操作"
+      width="120">
+      <template #default="scope">
+        <el-button
+          @click.prevent="deleteRow(scope.$index, tableData)"
+          type="text"
+          size="small">
+          移除
+        </el-button>
+      </template>
+    </el-table-column>
+  </el-table>
 </template>
 
 <script>
