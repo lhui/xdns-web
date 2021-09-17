@@ -4007,6 +4007,13 @@ vite@^1.0.0-rc.13:
     vue "^3.0.3"
     ws "^7.3.1"
 
+vue-axios@^3.3.6:
+  version "3.3.6"
+  resolved "https://registry.yarnpkg.com/vue-axios/-/vue-axios-3.3.6.tgz#ebd5eaa079c798308904b5550c6bdab6c6bc62cc"
+  integrity sha512-CnAnbyVqD4b1/IBz9lJQDOnBFX+AZLi0ZsPGy7i9Vo5z4QnquiN2FhCX1HDFGd5RNVwAhZrNY+PycRa6jrUmFw==
+  dependencies:
+    merge-stream "^2.0.0"
+
 vue-cli-plugin-element-plus@~0.0.13:
   version "0.0.13"
   resolved "https://registry.nlark.com/vue-cli-plugin-element-plus/download/vue-cli-plugin-element-plus-0.0.13.tgz#da829776373aad4269fc23b57bb3aa043bc67744"
