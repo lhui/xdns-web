@@ -33,22 +33,21 @@ export default {
       rows.splice(index, 1);
     },
     getDNSRecords() {
-      this.axios.get('http://127.0.0.1:8080/dns/records')
+      this.axios
+        .get("http://127.0.0.1:8080/dns/records")
         .then((res) => {
           let responseRecords = res.data.dnsModelList[0];
-          this.tableData=responseRecords;
+          this.tableData = responseRecords;
           console.log(responseRecords);
-
         })
         .catch((err) => {
           console.error(err);
         });
     },
-    
   },
   mounted() {
-      this.getDNSRecords();
-    },
+    this.getDNSRecords();
+  },
   data() {
     const item = {
       dns_name: "demo.example.com",
