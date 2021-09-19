@@ -6,7 +6,7 @@ const routes = [
     path: "/",
     name: "DNSList",
     component: DNSList,
-  },
+  }
 ];
 
 const router = createRouter({
