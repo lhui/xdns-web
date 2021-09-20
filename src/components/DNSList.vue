@@ -50,7 +50,7 @@ export default {
   },
   data() {
     const item = {
-      dns_name: "demo.example.com",
+      dns_name: "api.xdns.dev",
       dns_type: "A",
       dns_content: "1.1.1.1",
     };
