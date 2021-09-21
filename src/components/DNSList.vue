@@ -34,7 +34,7 @@ export default {
     },
     getDNSRecords() {
       this.axios
-        .get("http://127.0.0.1:8080/dns/records")
+        .get("http://api.xdns.dev/dns/records")
         .then((res) => {
           let responseRecords = res.data.dnsModelList[0];
           this.tableData = responseRecords;
