@@ -17,7 +17,7 @@
   "devDependencies": {
     "@vue/compiler-sfc": "^3.0.4",
     "jest": "^27.0.6",
-    "vite": "^1.0.0-rc.13",
+    "vite": "^2.9.13",
     "vue-cli-plugin-element-plus": "~0.0.13"
   },
   "homepage": "https://tcpgnl.github.io/xdns-web"
